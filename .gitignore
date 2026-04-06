@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# PROJETO - DADOS SENSÍVEIS
+# =========================
+
+# Dados
+data/raw/
+data/processed/
+data/features/
+
+# Outputs e resultados
+outputs/
+models/
+
+# Arquivos de dados
+*.parquet
+*.csv
+*.xlsx
+
+# Logs e temporários
+*.log
